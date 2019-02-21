@@ -3,11 +3,7 @@ module.exports = function makeExchange(currency) {
    var h = 0, q = 0, d = 0, n = 0, p = 0;
     var obj = {
       };
-      
-
-
-    // var str='{';
-if (currency>=10001) {
+	if (currency>=10001) {
         obj["error"] = "You are rich, my friend! We don\'t have so much coins for exchange";
     }
     else{
